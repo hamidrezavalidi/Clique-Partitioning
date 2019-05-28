@@ -1,0 +1,115 @@
+Model input: n = 19, m = 12, k = 25
+Academic license - for non-commercial use only
+Optimize a model with 34906 rows, 24800 columns and 82150 nonzeros
+Variable types: 0 continuous, 24800 integer (24800 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective -2.0000000
+Presolve removed 0 rows and 12400 columns
+Presolve time: 0.25s
+Presolved: 34906 rows, 12400 columns, 82150 nonzeros
+Variable types: 0 continuous, 12400 integer (12400 binary)
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier performed 0 iterations in 0.68 seconds
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+
+Root relaxation: objective 4.300000e+01, 2294 iterations, 0.40 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   43.00000    0  146   -2.00000   43.00000  2250%     -    1s
+H    0     0                       5.0000000   43.00000   760%     -    1s
+H    0     0                      22.0000000   43.00000  95.5%     -    2s
+     0     0   43.00000    0  146   22.00000   43.00000  95.5%     -    3s
+H    0     0                      25.0000000   43.00000  72.0%     -    5s
+     0     0   40.00000    0  144   25.00000   40.00000  60.0%     -    6s
+     0     0   40.00000    0  190   25.00000   40.00000  60.0%     -    7s
+H    0     0                      27.0000000   40.00000  48.1%     -    7s
+     0     0   39.00000    0  136   27.00000   39.00000  44.4%     -    8s
+     0     0   39.00000    0  137   27.00000   39.00000  44.4%     -    8s
+     0     0   39.00000    0  136   27.00000   39.00000  44.4%     -    8s
+     0     0   39.00000    0  136   27.00000   39.00000  44.4%     -   10s
+     0     0   39.00000    0  136   27.00000   39.00000  44.4%     -   11s
+     0     0   39.00000    0  136   27.00000   39.00000  44.4%     -   12s
+     0     0   39.00000    0  136   27.00000   39.00000  44.4%     -   12s
+     0     2   39.00000    0  136   27.00000   39.00000  44.4%     -   14s
+     7     8   30.00000    3   92   27.00000   33.00000  22.2%   392   15s
+H   31    14                      28.0000000   30.00000  7.14%   198   16s
+H   34    14                      29.0000000   30.00000  3.45%   184   16s
+
+Cutting planes:
+  Gomory: 19
+  Zero half: 367
+
+Explored 46 nodes (21458 simplex iterations) in 16.58 seconds
+Thread count was 10 (of 20 available processors)
+
+Solution count 7: 29 28 27 ... -2
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 2.900000000000e+01, best bound 2.900000000000e+01, gap 0.0000%
+Time elapsed: 17.060061 seconds
+# of clusters: 9
+Cluster 1 containts the following parts:
+1
+5
+15
+Cluster 1 containes the following machines:
+8
+9
+Cluster 2 containts the following parts:
+11
+13
+Cluster 2 containes the following machines:
+10
+12
+Cluster 3 containts the following parts:
+16
+Cluster 3 containes the following machines:
+Cluster 4 containts the following parts:
+17
+18
+Cluster 4 containes the following machines:
+11
+Cluster 5 containts the following parts:
+9
+Cluster 5 containes the following machines:
+Cluster 6 containts the following parts:
+7
+10
+14
+Cluster 6 containes the following machines:
+3
+Cluster 7 containts the following parts:
+3
+8
+12
+Cluster 7 containes the following machines:
+2
+6
+Cluster 8 containts the following parts:
+6
+19
+Cluster 8 containes the following machines:
+5
+Cluster 9 containts the following parts:
+2
+4
+Cluster 9 containes the following machines:
+1
+4
+7
