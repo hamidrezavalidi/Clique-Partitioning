@@ -1,0 +1,82 @@
+Model input: n = 19, m = 12
+Academic license - for non-commercial use only
+Optimize a model with 13485 rows, 961 columns and 40455 nonzeros
+Variable types: 0 continuous, 961 integer (961 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 12.0000000
+Presolve removed 0 rows and 496 columns
+Presolve time: 0.07s
+Presolved: 13485 rows, 465 columns, 40455 nonzeros
+Variable types: 0 continuous, 465 integer (465 binary)
+
+Root relaxation: objective 2.933333e+01, 171 iterations, 0.03 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   29.33333    0   26   12.00000   29.33333   144%     -    0s
+H    0     0                      28.0000000   29.33333  4.76%     -    0s
+H    0     0                      29.0000000   29.33333  1.15%     -    0s
+
+Explored 1 nodes (200 simplex iterations) in 0.20 seconds
+Thread count was 10 (of 20 available processors)
+
+Solution count 3: 29 28 12
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 2.900000000000e+01, best bound 2.900000000000e+01, gap 0.0000%
+Time elapsed: 0.391509 seconds
+# of clusters: 9
+Cluster 1 containts the following parts:
+1
+5
+15
+Cluster 1 containes the following machines:
+8
+9
+Cluster 2 containts the following parts:
+2
+4
+Cluster 2 containes the following machines:
+1
+4
+7
+Cluster 3 containts the following parts:
+3
+8
+12
+Cluster 3 containes the following machines:
+2
+6
+Cluster 4 containts the following parts:
+6
+19
+Cluster 4 containes the following machines:
+5
+Cluster 5 containts the following parts:
+7
+10
+14
+Cluster 5 containes the following machines:
+3
+Cluster 6 containts the following parts:
+9
+Cluster 6 containes the following machines:
+Cluster 7 containts the following parts:
+11
+13
+Cluster 7 containes the following machines:
+10
+12
+Cluster 8 containts the following parts:
+16
+Cluster 8 containes the following machines:
+Cluster 9 containts the following parts:
+17
+18
+Cluster 9 containes the following machines:
+11
