@@ -14,9 +14,9 @@ int main(int argc, char *argv[])
 {
     ios::sync_with_stdio(1);
     // parse command line arguments
-    int n = atoi(argv[1]);
-    int m = atoi(argv[2]);
-    char* a_fname = argv[3];
+    int n = atoi(argv[1]); // number of parts
+    int m = atoi(argv[2]); // number of machines
+    char* a_fname = argv[3]; // data file in .csv format
 
     // read inputs
     vector<vector<int>> a;
